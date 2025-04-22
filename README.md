@@ -82,13 +82,13 @@ This project was created using the following technologies.
 ![img-7](https://user-images.githubusercontent.com/111676859/235448789-2e077d59-cf47-42b2-bdf1-db88ab2baa6a.png)
 
 
-
+<!-- 
 ## Author
 - Portfolio: [berthutapea](https://berthutapea.vercel.app/)
 - Github: [berthutapea](https://github.com/berthutapea)
 - Sponsor: [berthutapea](https://saweria.co/berthutapea)
 - Linkedin: [gilberthutapea](https://www.linkedin.com/in/gilberthutapea/)
-- Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com)
+- Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com) -->
 
 ## License
 
