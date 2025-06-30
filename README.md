@@ -1,4 +1,4 @@
-<H1 align ="center" > REACT QUIZ  </h1>
+<H1 align ="center" > RAJ QUIZ  </h1>
 <h5  align ="center"> 
 Fullstack open source quiz application </h5>
 <br/>
@@ -67,27 +67,27 @@ This project was created using the following technologies.
 
  ##  Screenshots 
 
-![img-1](https://user-images.githubusercontent.com/111676859/235448791-4dc03043-834d-4cc6-986f-d73eb120b73e.png)
+![img-1](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/login.png?raw=true)
 ---- -
-![img-2](https://user-images.githubusercontent.com/111676859/235448776-8d6eeeae-0bc6-42c0-9886-01b337a1c060.png)
+![img-2](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/signUp.png?raw=true)
 --- - 
-![img-3](https://user-images.githubusercontent.com/111676859/235448778-4da1fae9-5eeb-4436-9658-4366ac4f60cf.png)
+![img-3](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Welcome.png?raw=true)
 --- - 
-![img-4](https://user-images.githubusercontent.com/111676859/235448781-6b7e71d7-aff0-4d8d-8dc4-3a17f0442c45.png)
+![img-4](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/start.png?raw=true)
 --- - 
-![img-5](https://user-images.githubusercontent.com/111676859/235448786-99ad55ea-6d3b-42f7-b850-7a689af1f905.png)
+![img-5](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Quiz.png?raw=true)
 --- - 
-![img-6](https://user-images.githubusercontent.com/111676859/235448787-74e9c56c-7bf4-403f-9b65-540648687548.png)
+![img-6](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Score.png?raw=true)
 --- - 
-![img-7](https://user-images.githubusercontent.com/111676859/235448789-2e077d59-cf47-42b2-bdf1-db88ab2baa6a.png)
+![img-7](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Result.png?raw=true)
 
 
-<!-- 
+
 ## Author
 - Portfolio: [Amit kumar Raj](https://amitkumarraj.vercel.app/)
 - Github: [Amit Raj](https://github.com/amitrajstm/)
 - Linkedin: [Amit kumar Raj](https://www.linkedin.com/in/amitkumarraj01/)
-- Email: [rajamitstm@gmail.com](mailto:rajamitstm@gmail.com) -->
+- Email: [rajamitstm@gmail.com](mailto:rajamitstm@gmail.com) 
 
 ## License
 
