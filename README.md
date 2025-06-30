@@ -1,5 +1,5 @@
 <h1 align="center">🎯 Raj Quiz</h1>
-<h3 align="center">Fullstack Open Source Quiz Application</h3>
+<h3 align="center">Open Source Quiz Application</h3>
 
 <p align="center">
   <a href="https://raj-quiz-app-stm.vercel.app/" target="_blank"><strong>🌐 Live Demo →</strong></a>
@@ -59,13 +59,15 @@ VITE_appId=your_app_id
 
 ## 📸 Screenshots
 
-| Login                                                                               | Sign Up                                                                              | Welcome                                                                               | Quiz Start                                                                          |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| ![](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/login.png?raw=true) | ![](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/signUp.png?raw=true) | ![](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Welcome.png?raw=true) | ![](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/start.png?raw=true) |
-
-| Quiz                                                                               | Score                                                                               | Result                                                                               |
-| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| ![](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Quiz.png?raw=true) | ![](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Score.png?raw=true) | ![](https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Result.png?raw=true) |
+| Screenshot     | Preview                                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Login**      | <img src="https://github.com/amitrajstm/raj-quiz-app/blob/main/public/login.png?raw=true" width="900" />   |
+| **Sign Up**    | <img src="https://github.com/amitrajstm/raj-quiz-app/blob/main/public/signUp.png?raw=true" width="900" />  |
+| **Welcome**    | <img src="https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Welcome.png?raw=true" width="900" /> |
+| **Quiz Start** | <img src="https://github.com/amitrajstm/raj-quiz-app/blob/main/public/start.png?raw=true" width="900" />   |
+| **Quiz**       | <img src="https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Quiz.png?raw=true" width="900" />    |
+| **Score**      | <img src="https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Score.png?raw=true" width="900" />   |
+| **Result**     | <img src="https://github.com/amitrajstm/raj-quiz-app/blob/main/public/Result.png?raw=true" width="900" />  |
 
 ---
 
