@@ -1,15 +1,19 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 
 function RootLayout() {
   return (
-    <main className="bg-neutral-50 font-Inter">
+    <div className="min-h-screen flex flex-col bg-neutral-50 font-Inter">
       <Navbar />
-      <div className="p-5 md:py-10 md:px-10 overflow-hidden">
+
+      <main className="flex-grow p-5 md:py-10 md:px-10 overflow-hidden">
         <Outlet />
-      </div>
-    </main>
+      </main>
+
+      <Footer />
+    </div>
   );
 }
 

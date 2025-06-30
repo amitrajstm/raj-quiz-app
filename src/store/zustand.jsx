@@ -76,6 +76,8 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
+let lastFetchTime = 0;
+
 const useQuestionStore = create(
   persist(
     (set) => ({
@@ -87,42 +89,56 @@ const useQuestionStore = create(
       falseAnswer: 0,
       auth: {},
       page: 1,
+      loading: false,
 
       fetchQuestion: async (query) => {
+        const now = Date.now();
+
+        // Prevent rapid multiple requests
+        if (now - lastFetchTime < 3000) {
+          console.warn("Too fast! Please wait before fetching again.");
+          return;
+        }
+
+        lastFetchTime = now;
+
+        set((state) => ({ ...state, loading: true, error: null }));
+
         try {
           const response = await fetch(`https://opentdb.com/api.php${query}`);
 
           if (!response.ok) {
-            // Handle 429 or other errors
             return set((state) => ({
               ...state,
               error: `Failed to fetch questions. Status: ${response.status}`,
               question: [],
+              loading: false,
             }));
           }
 
           const data = await response.json();
 
-          // Check response code from OpenTDB API
           if (data.response_code !== 0 || !Array.isArray(data.results)) {
             return set((state) => ({
               ...state,
               error: "No questions available or invalid response.",
               question: [],
+              loading: false,
             }));
           }
 
-          // Successful fetch
           return set((state) => ({
             ...state,
             question: data.results,
             error: null,
+            loading: false,
           }));
         } catch (error) {
           return set((state) => ({
             ...state,
             error: error.message || "Unknown error occurred.",
             question: [],
+            loading: false,
           }));
         }
       },
@@ -151,6 +167,7 @@ const useQuestionStore = create(
           falseAnswer: 0,
           auth: {},
           page: 1,
+          loading: false,
         }),
 
       resetQuestion: () =>

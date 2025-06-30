@@ -84,17 +84,16 @@ This project was created using the following technologies.
 
 <!-- 
 ## Author
-- Portfolio: [berthutapea](https://berthutapea.vercel.app/)
-- Github: [berthutapea](https://github.com/berthutapea)
-- Sponsor: [berthutapea](https://saweria.co/berthutapea)
-- Linkedin: [gilberthutapea](https://www.linkedin.com/in/gilberthutapea/)
-- Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com) -->
+- Portfolio: [Amit kumar Raj](https://amitkumarraj.vercel.app/)
+- Github: [Amit Raj](https://github.com/amitrajstm/)
+- Linkedin: [Amit kumar Raj](https://www.linkedin.com/in/amitkumarraj01/)
+- Email: [rajamitstm@gmail.com](mailto:rajamitstm@gmail.com) -->
 
 ## License
 
 MIT License
 
-Copyright (c) 2025 Gilbert Hutapea
+Copyright (c) 2025 Amit Raj
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
